@@ -1,13 +1,17 @@
 Begin by typing
-module load extra
+
+--IF you're doing this in the HPCC, do this part-----
+--Otherwise, skip it---------------------------------
+module load extra  (you won't see anything)
 module avail GCC
 You'll see a list of GCC/(Numbers).
 Type
 module load GCC/(Biggest number).
+-----------------------------------------------------
 
-open "vim_practice_1.cpp" by typing 
-vim vim_practice_1.cpp
 
+open "vim_practice_1.cpp" (this will take the whole terminal screen) by typing 
+	vim vim_practice_1.cpp 
 Follow the instructions when you start, they'll be in 
 the comments, 
 
