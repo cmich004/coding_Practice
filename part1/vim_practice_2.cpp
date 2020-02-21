@@ -2,8 +2,9 @@
 using namespace std;
 
 int main() { 
-	//Read the below documentation to make 10 copies of the 
-	//following line and have this program print out:
+	//Read the below documentation, and use the vim shortcuts
+	//documented below to copy the following line (cout << ...)
+	//and have this program print out:
 	//1
 	//2
 	//3
@@ -22,9 +23,16 @@ int main() {
 	//           it now. You can also press * over a word to search that
 	//           in the same way.
 	//Type :<line number> (enter) to jump to a line.
+	
+	//This is line 27, type :27 to get here.
+
 	//Various shortcuts: 
 	//u - undo (press repeatedly)
 	//ctrl-R - redo
+	//
+	//Delete this line (dd) 
+	//
+	//
 	//o - insert a line above the cursor and enter insert mode
 	//O - Same thing but after the cursor.
 	//A - enter insert mode at the end of the line
@@ -33,6 +41,10 @@ int main() {
 	//v - enter visual mode
 	//V - enter visual line mode
 	//ctrl-v - enter visual block mode. 
+	//r - enter replaces text for one character
+	//R - enter replace mode.
+	//(Exit visual modes with esc or copying/deleting)
+	//
 	//yy - copy line
 	//dd - cut line
 	//cc - cut line and enter insert mode to replace cut text
@@ -55,5 +67,9 @@ int main() {
 	
 	//Replace mode - 
 	//Like insert, only you overwrite what the cursor is over.  Useful for corrections.
+	
+
+	//Remember, exit with :wq  (w is "write" to save, q to "quit". You can also :w to save,
+	//and :q! to quit without saving)
 	return 0;
 }

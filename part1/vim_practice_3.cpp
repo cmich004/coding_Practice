@@ -11,11 +11,13 @@ int main() {
 	//
 	bool important_thing = true;
 	if (important_thing) { 
+		/////Start of do-while
 		 int i = 1;
 		 do { 
 			 cout << "This code is important and reusable." << endl;
 			 i++;
 		 } while (i == 2); 
+		 /////End of do-while
 	}
 	return 0;
 }

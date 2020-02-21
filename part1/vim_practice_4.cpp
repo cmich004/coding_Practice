@@ -18,7 +18,7 @@ int main() {
 			//These can be resized.  See the bottom of this file
 			//for some shortcuts.
 
-			//Visual-line copy the do-while loop over here.
+			//Visual-line (shift-v) copy the do-while loop over here.
 			//Then, change the condition to be 
 			// while i < my_super_important_number.  
 			//
